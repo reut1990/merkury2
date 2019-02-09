@@ -1,0 +1,129 @@
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    height: 65px;
+    background-color: #ffffff;
+    grid-column: 2/3;
+    max-width: 100%;
+}
+
+.header-container li{
+  list-style: none;
+}
+
+.left-header, .right-header {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+
+.left-header li{
+    padding: 0 10px;
+}
+
+.right-header  li{
+  padding: 0 10px;
+}
+.side-manu-btn{
+   padding: 5px;
+   display: flex; 
+}
+
+
+.left-arrow{
+   width: 6px;
+   height: 12px;
+   align-self: center;
+   padding: 5px;
+}
+
+.transition{
+    transition: all 2s ease;
+}
+
+.left-header li:nth-child(1) img:nth-child(2) {
+    height:18px;
+}
+
+.left-header li:nth-child(2) img,
+.right-header li:nth-child(2) img {
+    height: 20px;
+}
+
+.right-header li:nth-child(3) img {
+    height: 22px;
+}
+
+
+.add-project-btn{
+   
+    background-color: #5584ff;
+    height: 40px;
+    border-radius: 25px;
+    color: #ffffff;
+    display: flex;
+    margin: 0 10px;
+
+}
+
+.add-project-btn h6{
+    margin: 0 auto;
+    align-self: center;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.24px;
+    padding: 2px 8px 2px 0;
+    text-align: left;
+}
+
+.add-project-btn img{
+    width: 10px;
+    height: 10px;
+    align-self: center;
+    padding: 8px;
+}
+
+.user-area{
+    display: flex;
+    align-items: center;
+}
+
+.user-img{
+    margin-right: 5px;
+    height: 35px;
+    width: 35px;
+}
+
+.user-area img:nth-child(2){
+    height: 5px;
+}
+
+
+
+@media (max-width: 860px) {
+    
+  
+    .left-header, .right-header{
+        padding: 0;
+      }
+}
+
+@media(max-width:700px){
+    .header-container{
+        max-width: 100%;
+      }
+}
+@media (max-width: 500px) {
+    .left-arrow{
+       display: none;
+      }
+     .user-area img:nth-child(2){
+         display: none;
+      }
+
+     .header-container li {
+        margin: 2px;
+      }
+    }

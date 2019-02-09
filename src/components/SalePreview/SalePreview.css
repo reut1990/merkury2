@@ -1,0 +1,14 @@
+.sale {
+   color: #8492af;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 20px;
+   list-style: none;
+   display: flex;
+}
+
+.sale img{
+    padding: 5px 10px;
+    height: 7px;
+    align-self: center;
+}

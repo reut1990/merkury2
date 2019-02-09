@@ -1,0 +1,54 @@
+.lineCharts-container{
+    grid-column: 1/3;
+    margin: auto;
+}
+/*line chart size can be defined by px only- so i did some adujtments*/
+@media(max-width:1295px){
+
+.recharts-wrapper{
+    width: 558px !important;
+}
+.recharts-surface{
+    width: 520px !important;
+}
+    
+}
+
+@media(max-width:1288px){
+
+.recharts-wrapper{
+    width: 450px !important;
+}
+.recharts-surface{
+    width: 420px !important;
+}
+        
+}
+
+@media(max-width:1180px){
+
+.recharts-wrapper{
+    width: 400px !important;
+}
+.recharts-surface{
+    width: 380px !important;
+}
+            
+}
+
+
+@media(max-width:1130px){
+
+.report-container{
+    margin: 3px;
+}
+
+.recharts-wrapper{
+    width: 350px !important;
+}
+.recharts-surface{
+    width: 348px !important;
+}
+
+
+}

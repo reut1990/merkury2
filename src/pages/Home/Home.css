@@ -1,0 +1,14 @@
+
+
+.cmps-home-container{
+   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+ justify-content: center;
+}
+.main-title{
+font-size: 30px;
+font-weight: 500;
+line-height: 14.4px;
+margin: 30px 0 10px 60px;
+}

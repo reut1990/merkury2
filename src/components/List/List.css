@@ -1,0 +1,11 @@
+.list-container{
+        padding: 0;
+        overflow: hidden;
+        height: 303px;
+        margin: 0;
+    }
+
+.list-container:hover{
+    overflow-y: scroll;
+}
+

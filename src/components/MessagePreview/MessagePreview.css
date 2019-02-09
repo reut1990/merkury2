@@ -1,0 +1,48 @@
+.message-preview {
+    border-bottom: 1px solid rgb(132, 146, 175, 0.3);
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: auto auto;
+    padding:6px 0 4px 0;
+}
+
+.message-preview p {
+    grid-column: 2/3;
+    margin: 1px;
+    font-size: 12px;
+}
+
+
+.sender-img{
+  grid-row: 1/4;
+  margin: auto;
+}
+
+.sender-name{
+  font-weight: 700;
+}
+
+.sender-name span {
+    color: #a5afc4;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 0 5px;
+}
+
+.sub-buttons{
+    grid-column: 2/3;
+}
+
+.sub-buttons img{
+    padding: 5px;
+}
+.setting-message{
+    height: 16px;
+    width: 16px;
+}
+
+.sender-img {
+    border-radius: 25px;
+    height: 35px;
+    width: 35px;
+}

@@ -1,0 +1,43 @@
+
+
+form {
+    border: 1px solid rgba(132, 146, 175, 0.3);
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 25px;
+    font-size: 12px;
+    margin:15px 30px;
+    align-self: center;
+    justify-self: end;
+}
+
+label{
+    color: #8492af;
+    font-weight: 400;
+}
+
+select{
+    font-weight: 700;
+    border: none;
+    font-size: 12px;
+    background-color: white;
+}
+
+select:before {
+    display: none;
+}
+
+label img{
+    margin: 0 0 0 -13px;
+    z-index: 3;
+    background-color: white;
+    width: 7px;
+    height: 8px;
+}
+
+
+
+
+    
